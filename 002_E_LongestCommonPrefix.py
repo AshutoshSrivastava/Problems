@@ -4,7 +4,7 @@ def longestCommonPrefix(strs):
     prefix = strs[0]
     for s in strs[1:]:
         while not s.startswith(prefix):
-            prefix = prefix[:-1]
+            prefix = prefix[:-1] # remove last character
             if not prefix:
                 return ""
     return prefix
@@ -14,7 +14,7 @@ def longestCommonsuffix(strs):
     suffix = strs[0]
     for s in strs[1:]:
         while not s.endswith(suffix):
-            suffix = suffix[1:]
+            suffix = suffix[1:] # remove first character
             if not suffix:
                 return ""
     return suffix
