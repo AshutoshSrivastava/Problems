@@ -21,10 +21,10 @@ def longestCommonsuffix(strs):
 # Example usage:
 if __name__ == "__main__":
     arr = ["flower", "flow", "flight"]
-    print(arr,"coomon prefix:",longestCommonPrefix(arr))  # Output: "fl"
+    print(arr,"common prefix:",longestCommonPrefix(arr))  # Output: "fl"
     arr2 = ["dog", "racecar", "car"]
-    print(arr2,"coomon prefix:",longestCommonPrefix(arr2))  # Output: ""
+    print(arr2,"common prefix:",longestCommonPrefix(arr2))  # Output: ""
     arr3 = ["interspecies", "interstellar", "interstate"]
-    print(arr3,"coomon prefix:",longestCommonPrefix(arr3))  # Output: "inters"
+    print(arr3,"common prefix:",longestCommonPrefix(arr3))  # Output: "inters"
     arr4 = ["goof", "poof", "droof"]
-    print(arr4,"coomon suffix:",longestCommonsuffix(arr4))  # Output: "oof"
+    print(arr4,"common suffix:",longestCommonsuffix(arr4))  # Output: "oof"
