@@ -21,8 +21,8 @@ def romanToInt(s: str) -> int:
 
 # Example usage:
 if __name__ == "__main__":
-    print(romanToInt("III"))      # Output: 3
-    print(romanToInt("IV"))       # Output: 4
-    print(romanToInt("IX"))       # Output: 9
-    print(romanToInt("LVIII"))    # Output: 58
-    print(romanToInt("MCMXCIV"))  # Output: 1994
+    print(f'III => {romanToInt("III")}')      # Output: 3
+    print(f'IV => {romanToInt("IV")}')       # Output: 4
+    print(f'IX => {romanToInt("IX")}')       # Output: 9
+    print(f'LVIII => {romanToInt("LVIII")}')    # Output: 58
+    print(f'MCMXCIV => {romanToInt("MCMXCIV")}')  # Output: 1994
